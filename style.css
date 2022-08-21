@@ -11,9 +11,9 @@ h1{
   color : Orange ;
 }
 
-section{
+.flexible-box{
   display:flex;
-  padding:50px;
+  padding:40px;
 }
 
 .half-width{
@@ -40,4 +40,34 @@ border-radius:5px;
   background-image:url(images/dream-bg.png);
   background-repeat:no-repeat;
   background-position:right;
+}
+
+.experience-area{
+  background-image:url(images/exp-bg.png);
+  background-repeat:no-repeat;
+}
+
+.orange-color{
+  color:orange;
+}
+.half-width p{
+  margin-right:80px;
+}
+.experience-item{
+  border-radius:5px;
+  margin-left:5%;
+  margin-right:5%;
+  width:40%;
+  padding:20px;
+  box-shadow:10px 10px 40px gray;
+}
+#full-stack-developer{
+  border-left:7px solid tomato;
+}
+
+#baby-developer{
+  border-left:7px solid green;
+}
+footer p{
+  text-align:center;
 }
